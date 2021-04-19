@@ -21,6 +21,7 @@ Installation
 CRISPRleaderget does not require any installation. However, it uses 3rd party tools to perform automated pipeline. Please make sure that the following 3rd party tools are installed in your system.
 
 CRISPRleaderget dependencies:
+
 	Cd-hit		https://github.com/weizhongli/cdhit
 	MAFFT		https://mafft.cbrc.jp/alignment/software/source.html
 	SamTools	http://www.htslib.org/download/
