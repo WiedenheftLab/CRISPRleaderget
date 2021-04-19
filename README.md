@@ -16,15 +16,33 @@ Please refer to CRISPRDetect for detection of CRISPR arrays, which the output fi
 
 	python CRISPRleaderget.py -j demo -i demo.fasta -l demo_CRISPRDetect -s All -f 200 -cdc 0.95 -r Yes -cm avg_clade -ct 1.5 -t 50 
 
+Installation
+
+CRISPRleaderget does not require any installation. However, it uses 3rd party tools to perform automated pipeline. Please make sure that the following 3rd party tools are installed in your system.
+
 CRISPRleaderget dependencies:
-	Cd-hit
-	MAFFT
-	SamTools
-	FastTree
-	TreeCluster.py
-	WebLogo
-	Color_tree
-	Maxalign
+	Cd-hit		https://github.com/weizhongli/cdhit
+	MAFFT		https://mafft.cbrc.jp/alignment/software/source.html
+	SamTools	http://www.htslib.org/download/
+	FastTree	http://www.metagenomics.wiki/tools/phylogenetic-tree/construction/fasttree
+	TreeCluster.py	https://github.com/niemasd/TreeCluster
+	WebLogo		https://pypi.org/project/weblogo/
+	Color_tree	https://github.com/mooreryan/color_tree
+	Maxalign	http://www.cbs.dtu.dk/services/MaxAlign/
+
+Once all the dependencies are installed, please check that they are successfully installed and available in the user/system PATH by typing the following:
+
+	cdhit -h
+	mafft -h
+	samtools
+	fasttree -h
+	TreeCluster.py -h
+	weblogo -h
+	color_tree -h
+	
+For MaxAlign, direct to the folder where the sowftware is installed check if it is installed successfull with the following command (No need to include it to user/system PATH):
+	
+	perl maxalign.pl
 
 What is this script for?
 
