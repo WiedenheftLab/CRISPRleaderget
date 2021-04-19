@@ -1,6 +1,5 @@
-# CRISPRleaderget
 
-# CRISPRleaderget Version 1 help:
+# CRISPRleaderget Version 1:
 
 CRISPRleaderget is a python program developed and tested in Mint Linux operating system. CRISPRleaderget.py should run under any unix based operating system that has a working 'python v2.7' (Not compatible with python3). 
 
