@@ -1,6 +1,6 @@
 # CRISPRleaderget
 
-CRISPRleaderget Version 1 help:
+# CRISPRleaderget Version 1 help:
 
 CRISPRleaderget is a python program developed and tested in Mint Linux operating system. CRISPRleaderget.py should run under any unix based operating system that has a working 'python v2.7' (Not compatible with python3). 
 
@@ -16,7 +16,7 @@ Please refer to CRISPRDetect for detection of CRISPR arrays, which the output fi
 
 	python CRISPRleaderget.py -j demo -i demo.fasta -l demo_CRISPRDetect -s All -f 200 -cdc 0.95 -r Yes -cm avg_clade -ct 1.5 -t 50 
 
-Installation
+# Installation
 
 CRISPRleaderget does not require any installation. However, it uses 3rd party tools to perform automated pipeline. Please make sure that the following 3rd party tools are installed in your system.
 
@@ -45,7 +45,7 @@ For MaxAlign, direct to the folder where the sowftware is installed check if it 
 	
 	perl maxalign.pl
 
-What is this script for?
+# What is this script for?
 
 CRISPRleaderget isolates leader sequences of CRISPR arrays identified by CRISPRDetect v2.4. Fetched leader sequences used to generate NON-redundant list of leader sequences (cdhit). These leader sequences then aligned (MAFFT), gappy/poor alignments were removed (MaxAlign) and realigned (MAFFT). Realignment used to generate phylogeny (FastTree) in order to identified clusters of similar leader sequences (TreeCluster and color_tree[optional]). Each Cluster of leaders processed to identify motifs with Weblogo or additional scripts (not included in this script).
 
