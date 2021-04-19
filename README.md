@@ -40,7 +40,7 @@ Once all the dependencies are installed, please check that they are successfully
 	weblogo -h
 	color_tree -h
 	
-For MaxAlign, direct to the folder where the sowftware is installed check if it is installed successfull with the following command (No need to include it to user/system PATH):
+For MaxAlign, direct to the folder where the sowftware is installed and check if it is installed successfull with the following command (No need to include it to user/system PATH):
 	
 	perl maxalign.pl
 
