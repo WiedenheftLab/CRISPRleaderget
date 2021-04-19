@@ -9,11 +9,11 @@ Please refer to CRISPRDetect for detection of CRISPR arrays, which the output fi
 
 	Syntax:
 
-	python2 CRISPRleaderget.py -j demo -i demo.fasta -l demo_CRISPRDetect -s I-E
+	python2 CRISPRleaderget.py -j demo -i demo.fasta -l demo_CRISPRDetect -s All
 
 		OR
 
-	python CRISPRleaderget.py -j demo -i demo.fasta -l demo_CRISPRDetect -s All -f 200 -cdc 0.95 -r Yes -cm avg_clade -ct 1.5 -t 50 
+	python CRISPRleaderget.py -j demo -i demo.fasta -l demo_CRISPRDetect -s All -f 200 -cdc 0.95 -r Yes -cm avg_clade -ct 0.9 -t 50 
 
 # Installation
 
