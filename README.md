@@ -1,13 +1,17 @@
 
 # CRISPRleaderget Version 1:
 
+Author: Murat Buyukyoruk
+
+Associated lab: Wiedenheft lab
+
 CRISPRleaderget is a python program developed and tested in Mint Linux operating system. CRISPRleaderget.py should run under any unix based operating system that has a working 'python v2.7' (Not compatible with python3). 
 
 This script is developed to isolate CRISPR leaders from CRISPRDetect output file in order to generate CRISPR leader phylogeny and identification of motifs within the leader sequences. If all the 3rd party dependencies are installed and available in user/system $PATH this automated script should run without any issues.
 
 Please refer to CRISPRDetect for detection of CRISPR arrays, which the output file is required to use as an input for this script. Link to CRISPRDetect: https://github.com/ambarishbiswas/CRISPRDetect_2.2
 
-	Syntax:
+Syntax:
 
 	python2 CRISPRleaderget.py -j demo -i demo.fasta -l demo_CRISPRDetect -s All
 
